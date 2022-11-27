@@ -5,6 +5,9 @@ b) If it is a numeric list, then count number of odd values in it.
 c) If list contains all Strings, then display largest String in the list.
 d) Display list in reverse form.
 e) Find a specified element in list.
+f) Remove the specified element from the list.
+g) Sort the list in descending order.
+h) Accept 2 lists and find the common members in them
 """
 
 # a) Check if all elements in list are numbers or not.
@@ -54,7 +57,7 @@ def find_item(l):
             return
     print("Item not found")
 
-# Remove the specified item in the list
+# f) Remove the specified element from the list.
 def remove_item(l):
     item = input("\nEnter an element: ")
     for i in range(0, len(l), 1):
@@ -63,12 +66,12 @@ def remove_item(l):
             print("Item removed")
     return
 
-# Sort the list in descending order
+# g) Sort the list in descending order.
 def sort_desc(l):
     print(sorted(l, reverse=True))
     return
 
-# Accept two list and find common members in them
+# h) Accept 2 lists and find the common members in them
 def common(l1, l2):
     common = []
     for i in range(0, len(l1), 1):
