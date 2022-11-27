@@ -16,7 +16,7 @@ def calculate(side1, side2, side3):
         s = perimeter/2
         area = math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
     else:
-        print("Given sides do not form a triangle. The sum of two sides of a triangle should be greater than the third side")
+        print("Given sides do not form a triangle. \nThe sum of two sides of a triangle should be greater than the third side")
         quit()
 
     return perimeter, area
