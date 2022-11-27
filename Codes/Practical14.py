@@ -3,7 +3,7 @@
 Alternative lines copied should be the odd numbered lines. Use Exception.
 
 '''
-
+#Don't forget to create file1.txt and file2.txt
 
 def copyOddNumberedLines(file_in, file_out):
     print("\nCopying alternate lines from \'{}\' to \'{}\'...".format(
